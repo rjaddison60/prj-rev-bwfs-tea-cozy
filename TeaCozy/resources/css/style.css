@@ -1,0 +1,165 @@
+/* Global style sheet settings for TeaCozy page */
+/* Body settings */
+body {
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+  font-size: 22px;
+  color: Seashell;
+  text-align: center;
+  margin-top: 0px;
+}
+
+/* Link settings */
+a {
+  color: Seashell;
+}
+
+/* Title settings */
+h2, h3, h4, h5 {
+  display: block;
+  margin: 0px;
+  padding: 7px;
+}
+
+/* container settings */
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+/* Header/Navigation settings for TeaCozy page */
+/* Header settings */
+header {
+  display: inline-flex;
+  width: 100%;
+  height: 69px;
+  position: fixed;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  z-index: 1;
+  }
+
+/* Header image settings */
+header img {
+    height: 50px;
+    padding-left: 10px;
+  }
+
+/* Logo settings */
+.logo {
+    padding-left: 10px;
+    display: flex;
+  }
+
+/* Navigation settings */
+nav {
+  text-align: right;
+  flex-grow: 1;
+  padding-right: 10px;
+}
+
+/* Navigation span settings */
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+/* Content settings including mission, teas and locations */
+/* Container for the content loaded below the header */
+.store {
+  padding-top: 69px;
+  width: 1200px;
+  opacity: 0.9;
+  margin: auto;
+}
+
+/* Mission content for TeaCozy */
+/* Mission container settings */
+#mission {
+  display: flex;
+  border: 1px solid seashell;
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
+}
+
+/* Mission text loaded on background image */
+#mission .content {
+  display: block;
+  width: 100%;
+  background-color: black;
+  margin: auto;
+}
+
+/* Items including the images of the teas and descriptions */
+/* Items container settings */
+#items {
+  width: 1000px;
+  height: 700px;
+  padding-top: 60px;
+}
+
+/* Individual teas */
+.tea {
+  padding: 10px;
+}
+
+/* Tea images */
+.tea img {
+  height: 200px;
+  width: 300px;
+  border: 1px solid seashell;
+}
+
+/* Text descriptions of teas */
+.tea span {
+  display: block;
+  padding: 5px;
+}
+
+/* Locations of the the tea shops */
+/* Location container settings */
+#locations {
+  padding-top: 70px;
+  border: 1px solid seashell;
+  background-image: url("../images/img-locations-background.jpg");
+  height: 530px;
+  width: 100%;
+}
+
+/* Location container settings */
+#locations .container {
+  margin: auto;
+  width: 1200px;
+}
+
+/* Locations */
+.address {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 10px 20px;
+  padding: 20px;
+  flex-basis: 280px;
+  /*  width: 300px;
+  height: 300px; */
+  background-color: black;
+  opacity: 1.0;
+  border: 1px solid seashell;
+}
+
+/* Contact settings */
+#contact {
+  height: 200px;
+  width: 100%;
+}
+
+/* Footer settings for TeaCozy page */
+/* Footer settings */
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
